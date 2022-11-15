@@ -1,0 +1,31 @@
+_id: req_4c38996780664bfe9f1848df68a1e26d
+type: Request
+parentId: fld_e4f6be1c1f8f49b6ab7919b6178f357d
+modified: 1668490129021
+created: 1668464222514
+url: "{{ _['url-project'] }}/auth/change_password"
+name: ChangePassword
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "test@test.com",
+    	"password": "test1",
+    	"new_password": "test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9fbc84cfea3f4dd5a15333cc6c38cebd
+authentication: {}
+metaSortKey: -1667917682040.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

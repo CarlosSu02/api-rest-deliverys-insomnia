@@ -1,11 +1,14 @@
 _id: env_1eab3d062eca1e701650d5fa7c60501355d6bb9b
 type: Environment
 parentId: wrk_a80dd9acb1134ca79cf90c6b45bcc3aa
-modified: 1668148484598
+modified: 1668485214200
 created: 1668148484598
 name: Base Environment
-data: {}
-dataPropertyOrder: null
+data:
+  url-project: http://localhost:3050/api
+dataPropertyOrder:
+  "&":
+    - url-project
 color: null
 isPrivate: false
 metaSortKey: 1668148484598

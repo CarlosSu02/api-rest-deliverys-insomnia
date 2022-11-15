@@ -1,0 +1,38 @@
+_id: req_9bbc2771c1834dc9b3ea062311fba4e2
+type: Request
+parentId: fld_e4f6be1c1f8f49b6ab7919b6178f357d
+modified: 1668489845969
+created: 1668405145353
+url: "{{ _['url-project'] }}/auth/signup"
+name: Signup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "test1",
+    	"phone": 12345678,
+    	"address": "not",
+    	"email": "test1@test.com",
+    	"password": "test1",
+    	"roleId": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_466a5d1424c84ed5a5d5bebb97eb58a5
+  - id: pair_4bc3da4c0b874630bf238d1696093247
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1668148521593
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

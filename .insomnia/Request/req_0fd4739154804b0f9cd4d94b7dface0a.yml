@@ -1,0 +1,30 @@
+_id: req_0fd4739154804b0f9cd4d94b7dface0a
+type: Request
+parentId: fld_e4f6be1c1f8f49b6ab7919b6178f357d
+modified: 1668490121427
+created: 1668407407869
+url: "{{ _['url-project'] }}/auth/signin"
+name: Signin
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "test@test.com",
+    	"password": "test1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_22c2c34f520649ae815bb7f02198c959
+authentication: {}
+metaSortKey: -1667917682090.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

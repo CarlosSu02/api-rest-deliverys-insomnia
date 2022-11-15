@@ -1,0 +1,33 @@
+_id: req_b19f9969a7a2484dbd7bd1ccb69ae7b6
+type: Request
+parentId: fld_7ef8bd3ec1fc43369c8fb596942bf927
+modified: 1668489859188
+created: 1668448421549
+url: "{{ _['url-project'] }}/roles"
+name: GetRoles
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: auth-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QxQHRlc3QuY29tIiwicm9sZSI6InZlbmRlZG9yIiwiaWF0IjoxNjY4NDg5ODQ3LCJleHAiOjE2Njg1NzYyNDd9.jDcdEslLtXXXDv3_UftG5KyP6wIrz44OwRK1rlgPRA0
+    id: pair_62a609b7db004d0ca58605def625bd9c
+  - id: pair_877e2572b6fa41fa998d33ecb9b8f7fe
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: ""
+metaSortKey: -1668448421549
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
