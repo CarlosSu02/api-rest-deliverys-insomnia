@@ -1,21 +1,19 @@
-_id: req_9bbc2771c1834dc9b3ea062311fba4e2
+_id: req_b830832a29274eccb3df20dde4d0a4b6
 type: Request
-parentId: fld_e4f6be1c1f8f49b6ab7919b6178f357d
-modified: 1668616743946
-created: 1668405145353
-url: "{{ _['url-project'] }}/auth/signup"
-name: Signup
+parentId: fld_97f5d861644b4088ba0cd5ed2ccd4eb4
+modified: 1668617328650
+created: 1668614933569
+url: "{{ _['url-project'] }}/user/update"
+name: UpdateUser
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "test2",
+    	"name": "probando cambios 2",
     	"phone": 97779910,
     	"address": "not",
-    	"email": "test2@test.com",
-    	"password": "test2",
     	"roleId": 2
     }
 parameters: []
@@ -24,11 +22,11 @@ headers:
     value: application/json
     id: pair_466a5d1424c84ed5a5d5bebb97eb58a5
   - id: pair_4bc3da4c0b874630bf238d1696093247
-    name: ""
-    value: ""
+    name: auth-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQHRlc3QuY29tIiwicm9sZSI6ImNvbXByYWRvciIsImlhdCI6MTY2ODYxNzMxNCwiZXhwIjoxNjY4NzAzNzE0fQ.nn_FPsGTBYGTyW3WcglJDku7915c6fKk8-r0CMRT33E
     description: ""
 authentication: {}
-metaSortKey: -1668148521593
+metaSortKey: -1667917681940.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

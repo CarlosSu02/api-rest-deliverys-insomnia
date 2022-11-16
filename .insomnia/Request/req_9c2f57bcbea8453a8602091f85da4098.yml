@@ -1,0 +1,29 @@
+_id: req_9c2f57bcbea8453a8602091f85da4098
+type: Request
+parentId: fld_97f5d861644b4088ba0cd5ed2ccd4eb4
+modified: 1668617359622
+created: 1668616027770
+url: "{{ _['url-project'] }}/user/profile"
+name: Profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_b636ca89d66142a7b7fad575475e0614
+    name: auth-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQHRlc3QuY29tIiwicm9sZSI6ImNvbXByYWRvciIsImlhdCI6MTY2ODYxNzMxNCwiZXhwIjoxNjY4NzAzNzE0fQ.nn_FPsGTBYGTyW3WcglJDku7915c6fKk8-r0CMRT33E
+    description: ""
+  - id: pair_612d0c0e4cd04ccca47222936bd76769
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1667917681990.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
