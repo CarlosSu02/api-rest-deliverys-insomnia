@@ -1,17 +1,17 @@
-_id: req_420a64fef2ca45c4bd78d12d9625212a
+_id: req_2f9b66bc0e2843ce941306a61fed6169
 type: Request
 parentId: fld_7ef8bd3ec1fc43369c8fb596942bf927
-modified: 1668708122158
-created: 1668669197830
-url: "{{ _['url-project'] }}/roles"
-name: CreateRole
+modified: 1668708108883
+created: 1668707025838
+url: "{{ _['url-project'] }}/roles/3"
+name: UpdateRole
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"type": " EDIT "
+    	"type": "no edit"
     }
 parameters: []
 headers:
@@ -19,7 +19,7 @@ headers:
     value: application/json
     id: pair_4a89ddf33e3c46209363f90f814e053c
   - name: auth-token
-    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QxQHRlc3QuY29tIiwicm9sZSI6InN1cGVyYWRtaW4iLCJpYXQiOjE2Njg3MDc1NjUsImV4cCI6MTY2ODc5Mzk2NX0.I5lMqcvzOuCjb7gMm-7cGOkqSaqRYD3cWk5AlsIVgUc
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJyb2xlIjoidmVuZGVkb3IiLCJpYXQiOjE2Njg3MDczMTIsImV4cCI6MTY2ODc5MzcxMn0.1K6FFFS5INuecWa3Hmh6SsP4OEWAX7vX2T1VQ9LiQhA
     id: pair_62a609b7db004d0ca58605def625bd9c
   - id: pair_877e2572b6fa41fa998d33ecb9b8f7fe
     name: ""
@@ -31,7 +31,7 @@ authentication:
   disabled: false
   username: ""
   password: ""
-metaSortKey: -1668448418457.5
+metaSortKey: -1668448416911.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

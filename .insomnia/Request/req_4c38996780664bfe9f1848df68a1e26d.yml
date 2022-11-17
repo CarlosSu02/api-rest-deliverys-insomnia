@@ -1,7 +1,7 @@
 _id: req_4c38996780664bfe9f1848df68a1e26d
 type: Request
 parentId: fld_e4f6be1c1f8f49b6ab7919b6178f357d
-modified: 1668669843115
+modified: 1668705309016
 created: 1668464222514
 url: "{{ _['url-project'] }}/auth/change_password"
 name: ChangePassword
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"email": "test@test.com",
-    	"password": "test1",
+    	"password": "test2",
     	"new_password": "test"
     }
 parameters: []
