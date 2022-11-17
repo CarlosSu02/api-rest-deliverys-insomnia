@@ -1,9 +1,9 @@
 _id: req_a549784ede68458e8feae8c6bccc62bf
 type: Request
 parentId: wrk_a80dd9acb1134ca79cf90c6b45bcc3aa
-modified: 1668448420138
+modified: 1668668213974
 created: 1668148521618
-url: http://localhost:3050/api/ping
+url: http://localhost:3050/api/auth/ping
 name: Ping
 description: ""
 method: GET

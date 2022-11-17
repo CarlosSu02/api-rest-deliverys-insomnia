@@ -1,7 +1,7 @@
 _id: req_9bbc2771c1834dc9b3ea062311fba4e2
 type: Request
 parentId: fld_e4f6be1c1f8f49b6ab7919b6178f357d
-modified: 1668619209401
+modified: 1668669790485
 created: 1668405145353
 url: "{{ _['url-project'] }}/auth/signup"
 name: Signup
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "test2",
+    	"name": "test delete",
     	"phone": 97779910,
     	"address": "not",
     	"email": "testingBot@test.com",

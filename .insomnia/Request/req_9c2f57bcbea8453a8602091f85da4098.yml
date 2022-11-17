@@ -1,7 +1,7 @@
 _id: req_9c2f57bcbea8453a8602091f85da4098
 type: Request
 parentId: fld_97f5d861644b4088ba0cd5ed2ccd4eb4
-modified: 1668617359622
+modified: 1668667245742
 created: 1668616027770
 url: "{{ _['url-project'] }}/user/profile"
 name: Profile
@@ -12,7 +12,7 @@ parameters: []
 headers:
   - id: pair_b636ca89d66142a7b7fad575475e0614
     name: auth-token
-    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQHRlc3QuY29tIiwicm9sZSI6ImNvbXByYWRvciIsImlhdCI6MTY2ODYxNzMxNCwiZXhwIjoxNjY4NzAzNzE0fQ.nn_FPsGTBYGTyW3WcglJDku7915c6fKk8-r0CMRT33E
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJyb2xlIjoidmVuZGVkb3IiLCJpYXQiOjE2Njg2NjU2OTgsImV4cCI6MTY2ODc1MjA5OH0.JRb-3hzPpk-KZEQogaTHRY0MF5LVbduodwvpFom24lg
     description: ""
   - id: pair_612d0c0e4cd04ccca47222936bd76769
     name: ""

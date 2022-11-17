@@ -1,18 +1,18 @@
-_id: req_0fd4739154804b0f9cd4d94b7dface0a
+_id: req_9b13d07656a9455f83145181ecf5d230
 type: Request
-parentId: fld_e4f6be1c1f8f49b6ab7919b6178f357d
-modified: 1668669802224
-created: 1668407407869
-url: "{{ _['url-project'] }}/auth/signin"
-name: Signin
+parentId: fld_97f5d861644b4088ba0cd5ed2ccd4eb4
+modified: 1668669815685
+created: 1668667491780
+url: "{{ _['url-project'] }}/user/delete"
+name: DeleteUser
 description: ""
-method: POST
+method: DELETE
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "test2@test.com",
-    	"password": "tests"
+    	"email": "testingBot@test.com",
+    	"password": "test2"
     }
 parameters: []
 headers:
@@ -20,7 +20,7 @@ headers:
     value: application/json
     id: pair_22c2c34f520649ae815bb7f02198c959
 authentication: {}
-metaSortKey: -1667917682090.5
+metaSortKey: -1667917681890.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
