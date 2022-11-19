@@ -1,0 +1,43 @@
+_id: req_5b162643731e4c18a470f74288703bf1
+type: Request
+parentId: fld_1410f28a7e5a40beae348d902da5a961
+modified: 1668833393534
+created: 1668822283555
+url: "{{ _['url-project'] }}/ingredients/4"
+name: UpdateIngredients
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "editando cebollas",
+    	"amount": 1223,
+    	"unit_measure": 3442,
+    	"cost": 223,
+    	"stock": 345
+    }
+parameters: []
+headers:
+  - id: pair_8b33cd9628b9498ca4285f565f911382
+    name: auth-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbXByYWRvckB0ZXN0LmNvbSIsInJvbGUiOiJjb21wcmFkb3IiLCJpYXQiOjE2Njg4MzMzNjEsImV4cCI6MTY2ODkxOTc2MX0.jc4I4Hun1qFQ0lxVPfLnRJ6Fi4Iy52MoSGhy7U-WskE
+    description: ""
+  - id: pair_26cc734eed9b47dc9b159f4c4556a9dc
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: ""
+metaSortKey: -1668448419192.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

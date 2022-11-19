@@ -1,10 +1,10 @@
-_id: req_8326c08e348f4bd3956049650566688c
+_id: req_837faeffda1b40ed916100778ffc325a
 type: Request
-parentId: fld_7ef8bd3ec1fc43369c8fb596942bf927
-modified: 1668741412188
-created: 1668707545258
-url: "{{ _['url-project'] }}/roles/3"
-name: DeleteRole
+parentId: fld_1410f28a7e5a40beae348d902da5a961
+modified: 1668833399491
+created: 1668822283543
+url: "{{ _['url-project'] }}/ingredients/3"
+name: DeleteIngredients
 description: ""
 method: DELETE
 body:
@@ -16,19 +16,15 @@ headers:
     value: application/json
     id: pair_4a89ddf33e3c46209363f90f814e053c
   - name: auth-token
-    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QxQHRlc3QuY29tIiwicm9sZSI6InN1cGVyYWRtaW4iLCJpYXQiOjE2Njg3NDExOTgsImV4cCI6MTY2ODgyNzU5OH0.hbmtu8KMBNaaRzGUe6ptIEdgZkmp0DmpfC4MPkD_KSE
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbXByYWRvckB0ZXN0LmNvbSIsInJvbGUiOiJjb21wcmFkb3IiLCJpYXQiOjE2Njg4MzMzNjEsImV4cCI6MTY2ODkxOTc2MX0.jc4I4Hun1qFQ0lxVPfLnRJ6Fi4Iy52MoSGhy7U-WskE
     id: pair_62a609b7db004d0ca58605def625bd9c
-  - id: pair_877e2572b6fa41fa998d33ecb9b8f7fe
-    name: ""
-    value: ""
-    description: ""
 authentication:
   type: basic
   useISO88591: false
   disabled: false
   username: ""
   password: ""
-metaSortKey: -1668448416138.875
+metaSortKey: -1668448419180.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,39 @@
+_id: req_f9ff187ebfdd42758c24622d41980057
+type: Request
+parentId: fld_00c49bea15744e8c81a7e2c543b72c38
+modified: 1668833446985
+created: 1668813236696
+url: "{{ _['url-project'] }}/categories/8"
+name: UpdateCategory
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "editando categoria vendedor"
+    }
+parameters: []
+headers:
+  - id: pair_8b33cd9628b9498ca4285f565f911382
+    name: auth-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbXByYWRvckB0ZXN0LmNvbSIsInJvbGUiOiJjb21wcmFkb3IiLCJpYXQiOjE2Njg4MzMzNjEsImV4cCI6MTY2ODkxOTc2MX0.jc4I4Hun1qFQ0lxVPfLnRJ6Fi4Iy52MoSGhy7U-WskE
+    description: ""
+  - id: pair_26cc734eed9b47dc9b159f4c4556a9dc
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: ""
+metaSortKey: -1668448419192.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
