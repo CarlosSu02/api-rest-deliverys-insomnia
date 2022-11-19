@@ -1,0 +1,25 @@
+_id: req_dac5cf464d0c4595a665fa72a07b8174
+type: Request
+parentId: fld_8603539a9956415a920048676226617a
+modified: 1668816704766
+created: 1668744037198
+url: "{{ _['url-project'] }}/bills"
+name: GetAllBills (superadmin)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_e5ff48c24fc44d6aafabbb67a3ba7c69
+    name: auth-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJyb2xlIjoidmVuZGVkb3IiLCJpYXQiOjE2Njg4MTY2OTcsImV4cCI6MTY2ODkwMzA5N30.VEiASgPu1iBOMcAIq4hQo7ZoPYmCofyvC6_Cro94hwo
+    description: ""
+authentication: {}
+metaSortKey: -1668148521493
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
