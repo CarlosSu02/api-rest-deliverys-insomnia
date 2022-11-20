@@ -1,7 +1,7 @@
 _id: req_2f5cfc23eed343ecaca80a53ecf56a5c
 type: Request
 parentId: fld_1410f28a7e5a40beae348d902da5a961
-modified: 1668833405185
+modified: 1668923395656
 created: 1668822283530
 url: "{{ _['url-project'] }}/ingredients"
 name: CreateIngredients
@@ -19,20 +19,19 @@ body:
     }
 parameters: []
 headers:
-  - id: pair_8b33cd9628b9498ca4285f565f911382
-    name: auth-token
-    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbXByYWRvckB0ZXN0LmNvbSIsInJvbGUiOiJjb21wcmFkb3IiLCJpYXQiOjE2Njg4MzMzNjEsImV4cCI6MTY2ODkxOTc2MX0.jc4I4Hun1qFQ0lxVPfLnRJ6Fi4Iy52MoSGhy7U-WskE
-    description: ""
   - id: pair_26cc734eed9b47dc9b159f4c4556a9dc
     name: Content-Type
     value: application/json
     description: ""
+  - id: pair_8b33cd9628b9498ca4285f565f911382
+    name: auth-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbXByYWRvckB0ZXN0LmNvbSIsInJvbGUiOiJjb21wcmFkb3IiLCJpYXQiOjE2Njg4MzMzNjEsImV4cCI6MTY2ODkxOTc2MX0.jc4I4Hun1qFQ0lxVPfLnRJ6Fi4Iy52MoSGhy7U-WskE
+    description: ""
+    disabled: true
 authentication:
-  type: basic
-  useISO88591: false
-  disabled: false
-  username: ""
-  password: ""
+  type: bearer
+  token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
+    'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
 metaSortKey: -1668448419230.375
 isPrivate: false
 settingStoreCookies: true

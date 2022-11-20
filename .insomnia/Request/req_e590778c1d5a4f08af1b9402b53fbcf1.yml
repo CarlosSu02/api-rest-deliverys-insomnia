@@ -1,7 +1,7 @@
 _id: req_e590778c1d5a4f08af1b9402b53fbcf1
 type: Request
 parentId: fld_8603539a9956415a920048676226617a
-modified: 1668821621481
+modified: 1668923396186
 created: 1668744909968
 url: "{{ _['url-project'] }}/bills"
 name: CreateBill
@@ -11,6 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
+    	"NO FUNCIONA BIEN TODAVIA, PARA EVITAR CRASHEO NO USAR!!!!": "!",
     	"sellerEmail": "test4@test.com",
     	"tax": 1,
     	"discount": 0,
@@ -36,7 +37,11 @@ headers:
     name: auth-token
     value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QzQHRlc3QuY29tIiwicm9sZSI6ImNvbXByYWRvciIsImlhdCI6MTY2ODc0NjM4NywiZXhwIjoxNjY4ODMyNzg3fQ.IQLz2tDnuLNzVc37GdaSxFgnonyLSJvLtcL1qeFF9pY
     description: ""
-authentication: {}
+    disabled: true
+authentication:
+  type: bearer
+  token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
+    'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
 metaSortKey: -1668148521443
 isPrivate: false
 settingStoreCookies: true

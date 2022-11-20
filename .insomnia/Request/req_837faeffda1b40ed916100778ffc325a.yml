@@ -1,7 +1,7 @@
 _id: req_837faeffda1b40ed916100778ffc325a
 type: Request
 parentId: fld_1410f28a7e5a40beae348d902da5a961
-modified: 1668833399491
+modified: 1668923393463
 created: 1668822283543
 url: "{{ _['url-project'] }}/ingredients/3"
 name: DeleteIngredients
@@ -18,12 +18,11 @@ headers:
   - name: auth-token
     value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbXByYWRvckB0ZXN0LmNvbSIsInJvbGUiOiJjb21wcmFkb3IiLCJpYXQiOjE2Njg4MzMzNjEsImV4cCI6MTY2ODkxOTc2MX0.jc4I4Hun1qFQ0lxVPfLnRJ6Fi4Iy52MoSGhy7U-WskE
     id: pair_62a609b7db004d0ca58605def625bd9c
+    disabled: true
 authentication:
-  type: basic
-  useISO88591: false
-  disabled: false
-  username: ""
-  password: ""
+  type: bearer
+  token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
+    'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
 metaSortKey: -1668448419180.375
 isPrivate: false
 settingStoreCookies: true

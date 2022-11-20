@@ -1,7 +1,7 @@
 _id: req_9c2f57bcbea8453a8602091f85da4098
 type: Request
 parentId: fld_97f5d861644b4088ba0cd5ed2ccd4eb4
-modified: 1668821423302
+modified: 1668923399705
 created: 1668616027770
 url: "{{ _['url-project'] }}/user/profile"
 name: Profile
@@ -14,11 +14,15 @@ headers:
     name: auth-token
     value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJyb2xlIjoidmVuZGVkb3IiLCJpYXQiOjE2Njg4MTg5NTUsImV4cCI6MTY2ODkwNTM1NX0.I5_nqSmQvWnNMpOM1UrsmwZVe_V9R5QdOm7jvSNhujc
     description: ""
+    disabled: true
   - id: pair_612d0c0e4cd04ccca47222936bd76769
     name: ""
     value: ""
     description: ""
-authentication: {}
+authentication:
+  type: bearer
+  token: " {% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
+    'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
 metaSortKey: -1667917681990.5
 isPrivate: false
 settingStoreCookies: true

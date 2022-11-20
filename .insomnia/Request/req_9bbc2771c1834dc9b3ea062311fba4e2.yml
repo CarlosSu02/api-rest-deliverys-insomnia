@@ -1,7 +1,7 @@
 _id: req_9bbc2771c1834dc9b3ea062311fba4e2
 type: Request
 parentId: fld_e4f6be1c1f8f49b6ab7919b6178f357d
-modified: 1668833220413
+modified: 1668922798891
 created: 1668405145353
 url: "{{ _['url-project'] }}/auth/signup"
 name: Signup
@@ -11,12 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "test superadmin",
+    	"name": "test comprador",
     	"phone": 97779910,
     	"address": "not",
-    	"email": "test0@test.com",
-    	"password": "test0",
-    	"roleId": 9999
+    	"email": "test1@test.com",
+    	"password": "test1",
+    	"roleId": 2
     }
 parameters: []
 headers:
