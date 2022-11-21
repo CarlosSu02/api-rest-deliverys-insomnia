@@ -1,24 +1,24 @@
-_id: req_2f5cfc23eed343ecaca80a53ecf56a5c
+_id: req_997fefb967784b4ea44062dc5f2c0e14
 type: Request
-parentId: fld_1410f28a7e5a40beae348d902da5a961
-modified: 1668992977134
-created: 1668822283530
-url: "{{ _['url-project'] }}/ingredients"
-name: CreateIngredients
+parentId: fld_28257455ae094566916c39edbaf0e2b1
+modified: 1668993602692
+created: 1668992812724
+url: "{{ _['url-project'] }}/products/8"
+name: UpdateProducts
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"description": "creado cebollas",
-    	"price": 1223,
-    	"priceNotTax": 1223,
-    	"totalPrice": 1223,
-    	"isElaborate": true,
-    	"stock": 3442,
-    	"size": 223,
-    	"categoryId": 345
+    	"description": "cafe negro probando4",
+    	"price": 30,
+    	"priceNotTax": 28,
+    	"totalPrice": 30,
+    	"isElaborate": false,
+    	"stock": 50,
+    	"size": "8 onz",
+    	"categoryId": 3
     }
 parameters: []
 headers:
@@ -35,7 +35,7 @@ authentication:
   type: bearer
   token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
     'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
-metaSortKey: -1668448419230.375
+metaSortKey: -1668448419192.875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

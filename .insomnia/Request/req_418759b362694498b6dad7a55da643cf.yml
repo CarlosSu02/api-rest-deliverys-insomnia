@@ -1,10 +1,10 @@
-_id: req_655df367bc0c42b894cc21a0bb36284a
+_id: req_418759b362694498b6dad7a55da643cf
 type: Request
-parentId: fld_1410f28a7e5a40beae348d902da5a961
-modified: 1668992559512
-created: 1668822283517
-url: "{{ _['url-project'] }}/ingredients"
-name: GetIngredients
+parentId: fld_28257455ae094566916c39edbaf0e2b1
+modified: 1668992872979
+created: 1668992812696
+url: "{{ _['url-project'] }}/products"
+name: GetProducts
 description: ""
 method: GET
 body: {}

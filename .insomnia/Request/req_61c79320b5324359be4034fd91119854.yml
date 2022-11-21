@@ -1,24 +1,24 @@
-_id: req_2f5cfc23eed343ecaca80a53ecf56a5c
+_id: req_61c79320b5324359be4034fd91119854
 type: Request
-parentId: fld_1410f28a7e5a40beae348d902da5a961
-modified: 1668992977134
-created: 1668822283530
-url: "{{ _['url-project'] }}/ingredients"
-name: CreateIngredients
+parentId: fld_28257455ae094566916c39edbaf0e2b1
+modified: 1668993599208
+created: 1668992812707
+url: "{{ _['url-project'] }}/products"
+name: CreateProducts
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"description": "creado cebollas",
-    	"price": 1223,
-    	"priceNotTax": 1223,
-    	"totalPrice": 1223,
-    	"isElaborate": true,
-    	"stock": 3442,
-    	"size": 223,
-    	"categoryId": 345
+    	"description": "cafe negro probando",
+    	"price": 30,
+    	"priceNotTax": 28,
+    	"totalPrice": 30,
+    	"isElaborate": false,
+    	"stock": 50,
+    	"size": "8 onz",
+    	"categoryId": 3
     }
 parameters: []
 headers:
