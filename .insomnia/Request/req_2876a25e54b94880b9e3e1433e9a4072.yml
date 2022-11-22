@@ -1,9 +1,9 @@
 _id: req_2876a25e54b94880b9e3e1433e9a4072
 type: Request
 parentId: fld_28257455ae094566916c39edbaf0e2b1
-modified: 1668994503502
+modified: 1669093697348
 created: 1668992812716
-url: "{{ _['url-project'] }}/auth/ping{{ _['url-project'] }}/products/10"
+url: "{{ _['url-project'] }}/products/10"
 name: DeleteProducts
 description: ""
 method: DELETE
