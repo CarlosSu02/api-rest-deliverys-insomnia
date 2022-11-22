@@ -1,7 +1,7 @@
 _id: req_2f5cfc23eed343ecaca80a53ecf56a5c
 type: Request
 parentId: fld_1410f28a7e5a40beae348d902da5a961
-modified: 1668992977134
+modified: 1669093423188
 created: 1668822283530
 url: "{{ _['url-project'] }}/ingredients"
 name: CreateIngredients
@@ -11,14 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"description": "creado cebollas",
-    	"price": 1223,
-    	"priceNotTax": 1223,
-    	"totalPrice": 1223,
-    	"isElaborate": true,
-    	"stock": 3442,
-    	"size": 223,
-    	"categoryId": 345
+    	"name": "creado cebollas",
+    	"amount": 1223,
+    	"unit_measure": 3442,
+    	"cost": 223,
+    	"stock": 345
     }
 parameters: []
 headers:

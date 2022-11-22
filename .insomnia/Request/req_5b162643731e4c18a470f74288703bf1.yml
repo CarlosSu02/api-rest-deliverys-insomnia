@@ -1,9 +1,9 @@
 _id: req_5b162643731e4c18a470f74288703bf1
 type: Request
 parentId: fld_1410f28a7e5a40beae348d902da5a961
-modified: 1668923393797
+modified: 1669093447391
 created: 1668822283555
-url: "{{ _['url-project'] }}/ingredients/4"
+url: "{{ _['url-project'] }}/ingredients/1"
 name: UpdateIngredients
 description: ""
 method: PATCH
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"description": "editando cebollas",
+    	"name": "editando cebollas",
     	"amount": 1223,
     	"unit_measure": 3442,
     	"cost": 223,
