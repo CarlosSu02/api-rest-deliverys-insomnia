@@ -1,7 +1,7 @@
 _id: req_9bbc2771c1834dc9b3ea062311fba4e2
 type: Request
 parentId: fld_e4f6be1c1f8f49b6ab7919b6178f357d
-modified: 1669093218933
+modified: 1669174967462
 created: 1668405145353
 url: "{{ _['url-project'] }}/auth/signup"
 name: Signup
@@ -11,11 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "test vendedor 2",
+    	"name": "Claro cafe",
     	"phone": 97779910,
-    	"address": "not",
-    	"email": "test2@test.com",
-    	"password": "test2",
+    	"address": "uniplaza",
+    	"email": "clc@gmail.com",
+    	"password": "clc",
     	"roleId": 1
     }
 parameters: []

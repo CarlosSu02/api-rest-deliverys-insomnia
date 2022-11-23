@@ -1,7 +1,7 @@
 _id: req_e590778c1d5a4f08af1b9402b53fbcf1
 type: Request
 parentId: fld_8603539a9956415a920048676226617a
-modified: 1669089464154
+modified: 1669174852550
 created: 1668744909968
 url: "{{ _['url-project'] }}/bills"
 name: CreateBill
@@ -11,20 +11,24 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"NO FUNCIONA BIEN TODAVIA, PARA EVITAR CRASHEO NO USAR!!!!": "!",
-    	"sellerEmail": "test4@test.com",
     	"tax": 1,
     	"discount": 0,
     	"paymentForm": "test2",
-    	"isPurchase": true,
     	"products": [
     	  {
     			"product": "cafe negro",
-    			"tienda": "Plaza Cafe"
+    			"amount": 1,
+    			"store": "Plaza Cafe"
     		},
     		{
-    			"product": "granita",
-    			"tienda": "Claro Cafe"
+    			"product": "cafe negro",
+    			"amount": 1,
+    			"store": "Claro Cafe"
+    		},
+    		{
+    			"product": "granita 1",
+    			"amount": 3,
+    			"store": "Claro Cafe"
     		}
     	]
     }

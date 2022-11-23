@@ -1,10 +1,10 @@
 _id: req_dac5cf464d0c4595a665fa72a07b8174
 type: Request
 parentId: fld_8603539a9956415a920048676226617a
-modified: 1668923396553
+modified: 1669164804464
 created: 1668744037198
 url: "{{ _['url-project'] }}/bills"
-name: GetAllBills (superadmin)
+name: GetAllBills (Superadmin)
 description: ""
 method: GET
 body: {}

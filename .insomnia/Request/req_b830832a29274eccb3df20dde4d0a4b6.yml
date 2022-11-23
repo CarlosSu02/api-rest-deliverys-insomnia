@@ -1,7 +1,7 @@
 _id: req_b830832a29274eccb3df20dde4d0a4b6
 type: Request
 parentId: fld_97f5d861644b4088ba0cd5ed2ccd4eb4
-modified: 1669086216874
+modified: 1669173544064
 created: 1668614933569
 url: "{{ _['url-project'] }}/user/update"
 name: UpdateUser
@@ -14,7 +14,7 @@ body:
     	"name": "Plaza Cafe",
     	"phone": 97779910,
     	"address": "uniplaza",
-    	"roleId": 2
+    	"roleId": 1
     }
 parameters: []
 headers:
