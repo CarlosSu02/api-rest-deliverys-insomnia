@@ -1,7 +1,7 @@
 _id: req_3535b237ec5f4105b17bc59677c5ce05
 type: Request
 parentId: fld_8603539a9956415a920048676226617a
-modified: 1668923398779
+modified: 1669180366436
 created: 1668744277275
 url: "{{ _['url-project'] }}/bills/user"
 name: GetBills

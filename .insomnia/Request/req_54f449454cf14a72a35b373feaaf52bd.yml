@@ -1,0 +1,21 @@
+_id: req_54f449454cf14a72a35b373feaaf52bd
+type: Request
+parentId: wrk_a80dd9acb1134ca79cf90c6b45bcc3aa
+modified: 1669182362435
+created: 1669181144965
+url: "{{ _['url-project'] }}/documentation"
+name: Documentation
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669181144965
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
