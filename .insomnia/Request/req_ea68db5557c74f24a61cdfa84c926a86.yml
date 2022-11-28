@@ -1,7 +1,7 @@
 _id: req_ea68db5557c74f24a61cdfa84c926a86
 type: Request
 parentId: fld_db117769899f488abfec2cb98cd22a70
-modified: 1669597877187
+modified: 1669600351563
 created: 1669597560672
 url: "{{ _['url-project'] }}/billdetails"
 name: CreateBillDetail

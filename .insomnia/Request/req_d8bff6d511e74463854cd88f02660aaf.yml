@@ -1,17 +1,18 @@
-_id: req_a51b0a42197a458d8d48bb1b0213f368
+_id: req_d8bff6d511e74463854cd88f02660aaf
 type: Request
-parentId: fld_00c49bea15744e8c81a7e2c543b72c38
-modified: 1669598943365
-created: 1668748204447
-url: "{{ _['url-project'] }}/categories"
-name: CreateCategories
+parentId: fld_27e7555b250d462dbf756180f2e6eb37
+modified: 1669600417331
+created: 1669598264584
+url: "{{ _['url-project'] }}/recipes"
+name: CreateRecipe
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "creando categoria vendedor"
+    	"ingredientId": 1,
+    	"productId": 1
     }
 parameters: []
 headers:
@@ -28,7 +29,7 @@ authentication:
   type: bearer
   token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
     'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
-metaSortKey: -1668448419230.375
+metaSortKey: -1668148521268
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

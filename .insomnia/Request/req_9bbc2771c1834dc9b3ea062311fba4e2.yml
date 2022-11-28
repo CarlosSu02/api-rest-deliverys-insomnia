@@ -1,7 +1,7 @@
 _id: req_9bbc2771c1834dc9b3ea062311fba4e2
 type: Request
 parentId: fld_e4f6be1c1f8f49b6ab7919b6178f357d
-modified: 1669597540847
+modified: 1669600408868
 created: 1668405145353
 url: "{{ _['url-project'] }}/auth/signup"
 name: Signup
@@ -11,11 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "claro     cAfE    prueba",
-    	"phone": 97779910,
-    	"address": "uniplaza",
-    	"email": "clffc@gmail.com",
-    	"password": "clc",
+    	"name": "test seller",
+    	"phone": 99562144,
+    	"address": "src",
+    	"email": "testseller@gmail.com",
+    	"password": "test01",
     	"roleId": 1
     }
 parameters: []

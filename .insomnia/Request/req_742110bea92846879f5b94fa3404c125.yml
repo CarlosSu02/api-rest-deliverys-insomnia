@@ -1,34 +1,29 @@
-_id: req_a51b0a42197a458d8d48bb1b0213f368
+_id: req_742110bea92846879f5b94fa3404c125
 type: Request
-parentId: fld_00c49bea15744e8c81a7e2c543b72c38
-modified: 1669598943365
-created: 1668748204447
-url: "{{ _['url-project'] }}/categories"
-name: CreateCategories
+parentId: fld_27e7555b250d462dbf756180f2e6eb37
+modified: 1669598436279
+created: 1669598425090
+url: "{{ _['url-project'] }}/recipes/1"
+name: DeleteRecipe
 description: ""
-method: POST
+method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"name": "creando categoria vendedor"
-    }
+  text: ""
 parameters: []
 headers:
-  - id: pair_26cc734eed9b47dc9b159f4c4556a9dc
-    name: Content-Type
+  - name: Content-Type
     value: application/json
-    description: ""
-  - id: pair_8b33cd9628b9498ca4285f565f911382
-    name: auth-token
+    id: pair_4a89ddf33e3c46209363f90f814e053c
+  - name: auth-token
     value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbXByYWRvckB0ZXN0LmNvbSIsInJvbGUiOiJjb21wcmFkb3IiLCJpYXQiOjE2Njg4MzMzNjEsImV4cCI6MTY2ODkxOTc2MX0.jc4I4Hun1qFQ0lxVPfLnRJ6Fi4Iy52MoSGhy7U-WskE
-    description: ""
+    id: pair_62a609b7db004d0ca58605def625bd9c
     disabled: true
 authentication:
   type: bearer
   token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
     'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
-metaSortKey: -1668448419230.375
+metaSortKey: -1668148521168
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
