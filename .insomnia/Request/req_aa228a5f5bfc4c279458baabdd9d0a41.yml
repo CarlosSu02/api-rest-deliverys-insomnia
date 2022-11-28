@@ -1,25 +1,16 @@
-_id: req_a51b0a42197a458d8d48bb1b0213f368
+_id: req_aa228a5f5bfc4c279458baabdd9d0a41
 type: Request
-parentId: fld_00c49bea15744e8c81a7e2c543b72c38
-modified: 1669597768684
-created: 1668748204447
-url: "{{ _['url-project'] }}/categories"
-name: CreateCategories
+parentId: fld_db117769899f488abfec2cb98cd22a70
+modified: 1669597740038
+created: 1669597707023
+url: "{{ _['url-project'] }}/billdetails"
+name: GetBillDetails
 description: ""
-method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"name": "creando categoria vendedor"
-    }
+method: GET
+body: {}
 parameters: []
 headers:
-  - id: pair_26cc734eed9b47dc9b159f4c4556a9dc
-    name: Content-Type
-    value: application/json
-    description: ""
-  - id: pair_8b33cd9628b9498ca4285f565f911382
+  - id: pair_982e9cde2e994fe68e90210aa8050255
     name: auth-token
     value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbXByYWRvckB0ZXN0LmNvbSIsInJvbGUiOiJjb21wcmFkb3IiLCJpYXQiOjE2Njg4MzMzNjEsImV4cCI6MTY2ODkxOTc2MX0.jc4I4Hun1qFQ0lxVPfLnRJ6Fi4Iy52MoSGhy7U-WskE
     description: ""
@@ -28,7 +19,7 @@ authentication:
   type: bearer
   token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
     'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
-metaSortKey: -1668448419230.375
+metaSortKey: -1668148521618
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

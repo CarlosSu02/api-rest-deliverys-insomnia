@@ -1,22 +1,19 @@
-_id: req_9bbc2771c1834dc9b3ea062311fba4e2
+_id: req_ea68db5557c74f24a61cdfa84c926a86
 type: Request
-parentId: fld_e4f6be1c1f8f49b6ab7919b6178f357d
-modified: 1669597540847
-created: 1668405145353
-url: "{{ _['url-project'] }}/auth/signup"
-name: Signup
+parentId: fld_db117769899f488abfec2cb98cd22a70
+modified: 1669597877187
+created: 1669597560672
+url: "{{ _['url-project'] }}/billdetails"
+name: CreateBillDetail
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "claro     cAfE    prueba",
-    	"phone": 97779910,
-    	"address": "uniplaza",
-    	"email": "clffc@gmail.com",
-    	"password": "clc",
-    	"roleId": 1
+    	"amount": 2,
+    	"price": 499,
+    	"billId": 1
     }
 parameters: []
 headers:
@@ -28,7 +25,7 @@ headers:
     value: ""
     description: ""
 authentication: {}
-metaSortKey: -1668148521593
+metaSortKey: -1668148521668
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
