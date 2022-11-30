@@ -1,7 +1,7 @@
 _id: req_61c79320b5324359be4034fd91119854
 type: Request
 parentId: fld_28257455ae094566916c39edbaf0e2b1
-modified: 1669600413674
+modified: 1669791976867
 created: 1668992812707
 url: "{{ _['url-project'] }}/products"
 name: CreateProducts
@@ -33,8 +33,7 @@ headers:
     disabled: true
 authentication:
   type: bearer
-  token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
-    'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
+  token: "{% request 'cookie', 'access_token', 0 %}"
 metaSortKey: -1668448419230.375
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_420a64fef2ca45c4bd78d12d9625212a
 type: Request
 parentId: fld_7ef8bd3ec1fc43369c8fb596942bf927
-modified: 1669179171738
+modified: 1669791949267
 created: 1668669197830
 url: "{{ _['url-project'] }}/roles"
 name: CreateRole
@@ -26,8 +26,7 @@ headers:
     disabled: true
 authentication:
   type: bearer
-  token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
-    'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
+  token: "{% request 'cookie', 'access_token', 0 %}"
   disabled: false
 metaSortKey: -1668448418457.5
 isPrivate: false

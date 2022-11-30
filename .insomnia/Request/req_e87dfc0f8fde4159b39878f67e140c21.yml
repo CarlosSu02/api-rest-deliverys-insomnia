@@ -1,7 +1,7 @@
 _id: req_e87dfc0f8fde4159b39878f67e140c21
 type: Request
 parentId: fld_97f5d861644b4088ba0cd5ed2ccd4eb4
-modified: 1669164809083
+modified: 1669791869578
 created: 1668821394171
 url: "{{ _['url-project'] }}/user/users"
 name: GetUsers (Superadmin)
@@ -20,8 +20,7 @@ headers:
     description: ""
 authentication:
   type: bearer
-  token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
-    'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
+  token: "{% request 'cookie', 'access_token', 0 %}"
 metaSortKey: -1667917682040.5
 isPrivate: false
 settingStoreCookies: true

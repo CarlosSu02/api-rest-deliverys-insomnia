@@ -1,7 +1,7 @@
 _id: req_a51b0a42197a458d8d48bb1b0213f368
 type: Request
 parentId: fld_00c49bea15744e8c81a7e2c543b72c38
-modified: 1669598943365
+modified: 1669791978746
 created: 1668748204447
 url: "{{ _['url-project'] }}/categories"
 name: CreateCategories
@@ -26,8 +26,7 @@ headers:
     disabled: true
 authentication:
   type: bearer
-  token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
-    'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
+  token: "{% request 'cookie', 'access_token', 0 %}"
 metaSortKey: -1668448419230.375
 isPrivate: false
 settingStoreCookies: true

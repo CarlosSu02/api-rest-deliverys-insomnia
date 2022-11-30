@@ -1,7 +1,7 @@
 _id: req_d8bff6d511e74463854cd88f02660aaf
 type: Request
 parentId: fld_27e7555b250d462dbf756180f2e6eb37
-modified: 1669600417331
+modified: 1669791982134
 created: 1669598264584
 url: "{{ _['url-project'] }}/recipes"
 name: CreateRecipe
@@ -27,8 +27,7 @@ headers:
     disabled: true
 authentication:
   type: bearer
-  token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
-    'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
+  token: "{% request 'cookie', 'access_token', 0 %}"
 metaSortKey: -1668148521268
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_b19f9969a7a2484dbd7bd1ccb69ae7b6
 type: Request
 parentId: fld_7ef8bd3ec1fc43369c8fb596942bf927
-modified: 1669172525459
+modified: 1669791948048
 created: 1668448421549
 url: "{{ _['url-project'] }}/roles"
 name: GetRoles
@@ -17,8 +17,7 @@ headers:
     disabled: true
 authentication:
   type: bearer
-  token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
-    'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
+  token: "{% request 'cookie', 'access_token', 0 %}"
   disabled: false
 metaSortKey: -1668448421549
 isPrivate: false

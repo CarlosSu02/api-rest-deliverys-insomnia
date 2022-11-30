@@ -1,7 +1,7 @@
 _id: req_aa228a5f5bfc4c279458baabdd9d0a41
 type: Request
 parentId: fld_db117769899f488abfec2cb98cd22a70
-modified: 1669597740038
+modified: 1669791968825
 created: 1669597707023
 url: "{{ _['url-project'] }}/billdetails"
 name: GetBillDetails
@@ -17,8 +17,7 @@ headers:
     disabled: true
 authentication:
   type: bearer
-  token: "{% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
-    'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
+  token: "{% request 'cookie', 'access_token', 0 %}"
 metaSortKey: -1668148521618
 isPrivate: false
 settingStoreCookies: true

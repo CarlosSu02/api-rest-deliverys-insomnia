@@ -1,7 +1,7 @@
 _id: req_9c2f57bcbea8453a8602091f85da4098
 type: Request
 parentId: fld_97f5d861644b4088ba0cd5ed2ccd4eb4
-modified: 1668994167232
+modified: 1669791962572
 created: 1668616027770
 url: "{{ _['url-project'] }}/user/profile"
 name: Profile
@@ -21,8 +21,7 @@ headers:
     description: ""
 authentication:
   type: bearer
-  token: " {% response 'header', 'req_0fd4739154804b0f9cd4d94b7dface0a',
-    'b64::Q2FjaGUtQ29udHJvbA==::46b', 'never', 60 %}"
+  token: " {% request 'cookie', 'access_token', 0 %}"
 metaSortKey: -1667917681990.5
 isPrivate: false
 settingStoreCookies: true

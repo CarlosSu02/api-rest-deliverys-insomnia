@@ -1,26 +1,26 @@
-_id: req_0fd4739154804b0f9cd4d94b7dface0a
+_id: req_5fd67f9d2db04876ba5de6484ebf3bd5
 type: Request
 parentId: fld_e4f6be1c1f8f49b6ab7919b6178f357d
-modified: 1669790352452
-created: 1668407407869
-url: "{{ _['url-project'] }}/auth/signin"
-name: Signin
+modified: 1669789964032
+created: 1669789945132
+url: "{{ _['url-project'] }}/auth/signout"
+name: Signout
 description: ""
-method: POST
+method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"email": "comprador@gmail.com",
-    	"password": "testv"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_22c2c34f520649ae815bb7f02198c959
+    id: pair_466a5d1424c84ed5a5d5bebb97eb58a5
+  - id: pair_4bc3da4c0b874630bf238d1696093247
+    name: ""
+    value: ""
+    description: ""
 authentication: {}
-metaSortKey: -1667917682090.5
+metaSortKey: -1667917681990.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
