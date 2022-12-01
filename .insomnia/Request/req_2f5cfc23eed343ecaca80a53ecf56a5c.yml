@@ -1,7 +1,7 @@
 _id: req_2f5cfc23eed343ecaca80a53ecf56a5c
 type: Request
 parentId: fld_1410f28a7e5a40beae348d902da5a961
-modified: 1669791970911
+modified: 1669872403077
 created: 1668822283530
 url: "{{ _['url-project'] }}/ingredients"
 name: CreateIngredients
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "creado cebollas",
+    	"name": "cafe",
     	"amount": 1223,
     	"unit_measure": 3442,
     	"cost": 223,

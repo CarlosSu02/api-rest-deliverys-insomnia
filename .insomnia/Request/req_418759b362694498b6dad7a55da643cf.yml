@@ -1,7 +1,7 @@
 _id: req_418759b362694498b6dad7a55da643cf
 type: Request
 parentId: fld_28257455ae094566916c39edbaf0e2b1
-modified: 1669791976562
+modified: 1669871967030
 created: 1668992812696
 url: "{{ _['url-project'] }}/products"
 name: GetProducts
@@ -18,7 +18,7 @@ headers:
 authentication:
   type: bearer
   token: "{% request 'cookie', 'access_token', 0 %}"
-metaSortKey: -1668448419205.375
+metaSortKey: -1668448419280.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

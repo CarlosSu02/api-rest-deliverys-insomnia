@@ -1,7 +1,7 @@
 _id: req_655df367bc0c42b894cc21a0bb36284a
 type: Request
 parentId: fld_1410f28a7e5a40beae348d902da5a961
-modified: 1669791971276
+modified: 1669871964071
 created: 1668822283517
 url: "{{ _['url-project'] }}/ingredients"
 name: GetIngredients
@@ -18,7 +18,7 @@ headers:
 authentication:
   type: bearer
   token: "{% request 'cookie', 'access_token', 0 %}"
-metaSortKey: -1668448419205.375
+metaSortKey: -1668448419280.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

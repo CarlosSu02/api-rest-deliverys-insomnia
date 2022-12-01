@@ -1,9 +1,9 @@
 _id: req_f9ff187ebfdd42758c24622d41980057
 type: Request
 parentId: fld_00c49bea15744e8c81a7e2c543b72c38
-modified: 1669791979597
+modified: 1669864081139
 created: 1668813236696
-url: "{{ _['url-project'] }}/categories/8"
+url: "{{ _['url-project'] }}/categories/1"
 name: UpdateCategory
 description: ""
 method: PATCH
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"description": "editando categoria vendedor"
+    	"name": "editando categoria vendedor"
     }
 parameters: []
 headers:

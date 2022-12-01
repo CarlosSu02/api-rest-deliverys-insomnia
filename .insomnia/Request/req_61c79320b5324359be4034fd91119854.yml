@@ -1,7 +1,7 @@
 _id: req_61c79320b5324359be4034fd91119854
 type: Request
 parentId: fld_28257455ae094566916c39edbaf0e2b1
-modified: 1669791976867
+modified: 1669875272717
 created: 1668992812707
 url: "{{ _['url-project'] }}/products"
 name: CreateProducts
@@ -11,14 +11,14 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "cafe negro",
+    	"name": "granita",
     	"description": "cafe negro",
     	"price": 30,
     	"priceNotTax": 28,
     	"isElaborate": false,
     	"stock": 50,
     	"size": "8 onz",
-    	"categoryId": 1
+    	"categoryId": 2
     }
 parameters: []
 headers:

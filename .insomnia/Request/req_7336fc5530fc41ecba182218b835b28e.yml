@@ -1,7 +1,7 @@
 _id: req_7336fc5530fc41ecba182218b835b28e
 type: Request
 parentId: fld_00c49bea15744e8c81a7e2c543b72c38
-modified: 1669791979208
+modified: 1669871971917
 created: 1668746748196
 url: "{{ _['url-project'] }}/categories"
 name: GetCategories
@@ -18,7 +18,7 @@ headers:
 authentication:
   type: bearer
   token: "{% request 'cookie', 'access_token', 0 %}"
-metaSortKey: -1668448419205.375
+metaSortKey: -1668448419280.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
