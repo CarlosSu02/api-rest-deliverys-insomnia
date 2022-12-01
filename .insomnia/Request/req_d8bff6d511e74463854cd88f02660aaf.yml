@@ -1,7 +1,7 @@
 _id: req_d8bff6d511e74463854cd88f02660aaf
 type: Request
 parentId: fld_27e7555b250d462dbf756180f2e6eb37
-modified: 1669870783329
+modified: 1669875801293
 created: 1669598264584
 url: "{{ _['url-project'] }}/recipes"
 name: CreateRecipe
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"ingredientId": 2,
-    	"productId": 3
+    	"ingredientId": 4,
+    	"productId": 5
     }
 parameters: []
 headers:

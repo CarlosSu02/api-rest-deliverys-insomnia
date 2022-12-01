@@ -1,21 +1,25 @@
-_id: req_2f5cfc23eed343ecaca80a53ecf56a5c
+_id: req_7c81e350314143038a8f3c1e96f9e0cb
 type: Request
-parentId: fld_1410f28a7e5a40beae348d902da5a961
-modified: 1669925559934
-created: 1668822283530
-url: "{{ _['url-project'] }}/ingredients"
-name: CreateIngredients
+parentId: fld_28257455ae094566916c39edbaf0e2b1
+modified: 1669875445159
+created: 1669872055701
+url: "{{ _['url-project'] }}/products/superadmin"
+name: CreateProducts (Superadmin)
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "harina",
-    	"amount": 1223,
-    	"unit_measure": 3442,
-    	"cost": 223,
-    	"stock": 345
+    	"name": "pan",
+    	"description": "pan",
+    	"price": 100,
+    	"priceNotTax": 28,
+    	"isElaborate": true,
+    	"stock": 50,
+    	"size": "8 onz",
+    	"categoryId": 3,
+    	"sellerEmail": "vendedor@gmail.com"
     }
 parameters: []
 headers:
@@ -31,7 +35,7 @@ headers:
 authentication:
   type: bearer
   token: "{% request 'cookie', 'access_token', 0 %}"
-metaSortKey: -1668448419230.375
+metaSortKey: -1668448419211.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

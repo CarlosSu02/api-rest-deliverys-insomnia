@@ -1,7 +1,7 @@
 _id: req_e590778c1d5a4f08af1b9402b53fbcf1
 type: Request
 parentId: fld_8603539a9956415a920048676226617a
-modified: 1669874601498
+modified: 1669925638858
 created: 1668744909968
 url: "{{ _['url-project'] }}/bills"
 name: CreateBill
@@ -11,8 +11,6 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"tax": 1,
-    	"discount": 0,
     	"paymentForm": "test2",
     	"products": [
     	  {
