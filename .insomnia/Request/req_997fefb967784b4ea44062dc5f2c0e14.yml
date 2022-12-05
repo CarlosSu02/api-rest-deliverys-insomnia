@@ -1,7 +1,7 @@
 _id: req_997fefb967784b4ea44062dc5f2c0e14
 type: Request
 parentId: fld_28257455ae094566916c39edbaf0e2b1
-modified: 1669863398323
+modified: 1670275491205
 created: 1668992812724
 url: "{{ _['url-project'] }}/products/8"
 name: UpdateProducts
@@ -11,7 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"description": "cafe negro probando editar",
+    	"name": "edit example",
+    	"description": "testing edit example",
     	"price": 30,
     	"priceNotTax": 28,
     	"totalPrice": 30,

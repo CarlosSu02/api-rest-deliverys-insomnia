@@ -1,7 +1,7 @@
 _id: req_e590778c1d5a4f08af1b9402b53fbcf1
 type: Request
 parentId: fld_8603539a9956415a920048676226617a
-modified: 1669925638858
+modified: 1670274733619
 created: 1668744909968
 url: "{{ _['url-project'] }}/bills"
 name: CreateBill
@@ -14,7 +14,7 @@ body:
     	"paymentForm": "test2",
     	"products": [
     	  {
-    			"product": "cafe negro",
+    			"product": "cafe negroo",
     			"amount": 1,
     			"store": "Plaza Cafe"
     		},
