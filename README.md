@@ -1,6 +1,8 @@
 
 # API REST Deliverys - Insomnia
 
+<br>
+
 ## Instrucciones:
 1. Instalar [Insmonia](https://insomnia.rest/download).
 2. Después de instalar insomnia (o abrirlo en caso de ya tenerlo) nos dirigimos al Dashboard del proyecto en el que se esté en ese momento.
@@ -58,3 +60,5 @@
 <br>
 
 > En caso de que lo anterior no funcione puede desde isomnia importar el archivo [DocumentDeliveryQueries](https://github.com/CarlosSu02/api-rest-deliverys-insomnia/blob/main/files/DocumentDeliveryQueries).
+
+> El puerto por defecto en la variable de entorno "url-project" es el 3000, en caso de no usar ese, deberá editarlo.
