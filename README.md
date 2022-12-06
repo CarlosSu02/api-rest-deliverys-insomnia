@@ -3,6 +3,14 @@
 
 <br>
 
+## Integrantes: 
+- Jony Salvador Lopez Martinez
+- Jorge Arturo Canales Ortega
+- Carlos Josue Su Pleitez
+
+<br>
+
+----
 ## Instrucciones:
 1. Instalar [Insmonia](https://insomnia.rest/download).
 2. Después de instalar insomnia (o abrirlo en caso de ya tenerlo) nos dirigimos al Dashboard del proyecto en el que se esté en ese momento.
